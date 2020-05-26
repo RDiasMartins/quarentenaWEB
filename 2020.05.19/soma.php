@@ -14,17 +14,16 @@
         </script>
     </head>
     <body>
-        <fieldset>
-            <center>
-            <input style="text-align:center;" type="text" id="n1" onkeyup="soma()"/>
-            <h4>+</h4>
-            <input style="text-align:center;" type="text" id="n2" onkeyup="soma()"/>
-            <br/>
+        <center>
+            <fieldset>
+                <input style="text-align:center;" type="text" id="n1" onkeyup="soma()"/>
+                <h4>+</h4>
+                <input style="text-align:center;" type="text" id="n2" onkeyup="soma()"/>
+                <br/>
 
-            <h4>Resultado:</h4>
-            <input style="text-align:center;" id="resultado" value="" readonly="readonly"/>
-
-            </center>
-        </fieldset>
+                <h4>Resultado:</h4>
+                <input style="text-align:center;" id="resultado" value="" readonly="readonly"/>
+            </fieldset>
+        </center>
     </body>
 </html>
