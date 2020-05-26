@@ -1,30 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
     <head>
-        <meta charset="UTF-8"/>
-        <title>Soma</title>
-        <script>
-            function soma(){
-                var n1 = parseInt(document.getElementById('n1').value);
-                var n2 = parseInt(document.getElementById('n2').value);
-
-                var resultado = n1 + n2;
-                document.getElementById("resultado").value=resultado;
-            }
-        </script>
+        <meta charset="utf-8" />
+        <title> Meus Exercícios - Renan </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="estilo.min.css" />
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet"/>
     </head>
     <body>
-        <fieldset>
-            <center>
-            <input style="text-align:center;" type="text" id="n1" onkeyup="soma()"/>
-            <h4>+</h4>
-            <input style="text-align:center;" type="text" id="n2" onkeyup="soma()"/>
+        <div class="container-fluid">
+            <?php
+                include "menu.inc";
+            ?>
             <br/>
 
-            <h4>Resultado:</h4>
-            <input style="text-align:center;" id="resultado" value="" readonly="readonly"/>
-
-            </center>
-        </fieldset>
+            <table class="table table-light table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Data</th>
+                        <th>Exercício</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>19-05-2020</td>
+                        <td> <a href="2020.05.19/soma.php"> Soma </a> </td>
+                    </tr>
+                </tbody>
+            </table>
     </body>
 </html>
