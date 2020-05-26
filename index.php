@@ -16,7 +16,7 @@
     <body>
         <fieldset>
             <center>
-            <input style="text-align:center;" type="text" id="n1"/>
+            <input style="text-align:center;" type="text" id="n1" onkeyup="soma()"/>
             <h4>+</h4>
             <input style="text-align:center;" type="text" id="n2" onkeyup="soma()"/>
             <br/>
