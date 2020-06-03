@@ -29,6 +29,11 @@
                         <td>19-05-2020</td>
                         <td> <a href="2020.05.19/soma.php"> Soma </a> </td>
                     </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>03-06-2020</td>
+                        <td> <a href="2020.06.03/memoria.php"> Jogo da memória </a> </td>
+                    </tr>
                 </tbody>
             </table>
     </body>
