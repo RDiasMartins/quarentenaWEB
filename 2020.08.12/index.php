@@ -18,7 +18,7 @@
                     height:500px;
             }
         </style>
-
+        <script src = "jquery-3.3.1.min.js"></script>
         <script>
 
             //Escreve as coisas
@@ -81,7 +81,5 @@
 
             <div id = "quadrado2" style = "display: table-cell;"></div>
         </div>
-
-        <script src = "jquery-3.3.1.min.js"></script>
     </body>
 </html>
