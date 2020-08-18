@@ -34,6 +34,11 @@
                         <td>03-06-2020</td>
                         <td> <a href="2020.06.03/memoria.php"> Jogo da memória </a> </td>
                     </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>12-08-2020</td>
+                        <td> <a href="2020.08.12/index.php"> Editor em JQuery </a> </td>
+                    </tr>
                 </tbody>
             </table>
     </body>
